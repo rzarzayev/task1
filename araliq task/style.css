@@ -1,0 +1,43 @@
+body{
+    background-image: url(task1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+a:hover{
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+}
+.left{
+    font-size: 35px;
+}
+.right{
+    padding: 5px;
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    height: 80%;
+    color: rgb(203, 234, 52);
+}
